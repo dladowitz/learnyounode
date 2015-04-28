@@ -12,7 +12,6 @@ module.exports = function(directory_path, file_type, callback){
       result_array = [];
       // console.log("Files: " + files);
       
-      
       files.forEach(function(file){
         // console.log("file: " + file);
         if(file.match(regex)){

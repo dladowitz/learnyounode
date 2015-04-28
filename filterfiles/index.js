@@ -13,6 +13,7 @@ module.exports = function(directory, filetype, callback){
       console.log("Files: " + files);
       
       files.forEach(file){
+        
         if(file.match(regex)){
           console.log("Matched file: " + file);
           result_array.push(file);
