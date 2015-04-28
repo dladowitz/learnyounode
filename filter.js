@@ -3,6 +3,7 @@ var path = require('path')
 
 module.exports = function(dirPath, extenstion, callback) { 
   var files = []
+  
   fs.readdir(dirPath, function(err, list){
     if(err){
        callback(err, null); 
