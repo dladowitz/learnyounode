@@ -1,0 +1,24 @@
+{
+  "name": "strftime",
+  "version": "0.9.0",
+  "main": "strftime.js",
+  "ignore": [
+    "Readme.md",
+    "Makefile",
+    "test",
+    "*.json"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "homepage": "https://github.com/samsonjs/strftime",
+  "_release": "0.9.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.9.0",
+    "commit": "f4a2c852c39697af54f292db0ce0e2a346fdae84"
+  },
+  "_source": "git://github.com/samsonjs/strftime.git",
+  "_target": "~0.9.0",
+  "_originalSource": "strftime",
+  "_direct": true
+}
